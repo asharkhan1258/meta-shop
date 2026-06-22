@@ -1,0 +1,2798 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Meta Store Scroll Layout</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container-fluid p-0">
+  <div class="d-lg-flex">
+
+    <!-- Sticky Sidebar -->
+    <aside class="sidebar d-flex flex-lg-column align-items-center  py-4 gap-5">
+      <div class="brand-loader text-center d-lg-block d-none">
+        <svg width="40" height="35" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-space-24 w-space-24 transform-gpu text-text-brand"><path d="M9.04738 0C5.92722 0 3.00481 0.971665 0.906387 2.37332C0.763562 2.46825 0.714122 2.6637 0.802014 2.81448L3.3344 7.20931C3.42779 7.36567 3.62554 7.42151 3.77935 7.32658C5.3724 6.34933 7.19615 5.84116 9.05837 5.85233C14.0737 5.85233 17.7597 9.4486 17.7597 14.2008C17.7597 18.2494 14.8098 21.2482 11.0689 21.2482C8.02014 21.2482 5.90524 19.4445 5.90524 16.898C5.90524 15.4405 6.51499 14.2455 8.10254 13.4023C8.26734 13.3129 8.32776 13.1063 8.22888 12.9444L5.83932 8.83433C5.76242 8.70031 5.59762 8.63888 5.4493 8.69473C2.24674 9.90093 0 12.8048 0 16.7026C0 22.5996 4.61982 27 11.0634 27C18.5892 27 24 21.7005 24 14.1003C24 5.95284 17.7047 0 9.04738 0Z" fill="#5433EB"></path></svg>
+      </div>
+
+      <nav class="d-flex flex-lg-column align-items-center mx-lg-0 mx-auto    mt-lg-5 px-lg-0 px-3">
+        <div class="row d-flex flex-lg-column  gap-lg-3 g-5 align-items-center justify-content-between  ">
+            <div class="col">
+              <a href="#" class="side-link active"><i class="fa-solid fa-house"></i></a>
+            </div>
+            <div class="col">
+              <a href="#" class="side-link"><i class="fa-solid fa-table-cells-large"></i></a>
+            </div>
+            <div class="col">
+              <a href="#" class="side-link"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="col">
+              <a href="#" class="side-link"><i class="fa-solid fa-tag"></i></a>
+            </div>
+            <div class="col">
+              <a href="#" class="side-link"><i class="fa-solid fa-heart"></i></a>
+            </div>
+        </div>
+      </nav>
+
+      <div class="mt-lg-auto d-lg-block d-none text-center sign-box">
+        <i class="fa-solid fa-user"></i>
+        <span>Sign in</span>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-shop flex-grow-1">
+      <section class="shop-panel">
+
+        
+
+        <!-- Scrollable Product Side -->
+        <div class="products-scroll">
+             <div class="shop-sticky">
+
+          <div class="mb-5">
+            <h1 class="shop-title">Shop all</h1>
+
+            <div class="store-info d-flex align-items-center gap-3 mt-4">
+              <div class="meta-logo"><img src="./images/Meta_lockup_positiveprimary_RGB.jpeg" alt="" class="img-fluid"></div>
+              <h4 class="m-0">Meta Store Official</h4>
+            </div>
+          </div>
+
+          <!-- Filters -->
+          <div class="d-flex flex-wrap align-items-center gap-3 pb-4">
+            <button class="filter-circle">
+              <i class="fa-solid fa-sliders"></i>
+            </button>
+
+            <button class="filter-btn active">
+              Sort by <i class="fa-solid fa-chevron-down ms-2"></i>
+            </button>
+
+            <button class="filter-btn">On sale</button>
+
+            <button class="filter-btn">
+              Price <i class="fa-solid fa-chevron-down ms-2"></i>
+            </button>
+
+            <button class="filter-btn active">In-stock</button>
+          </div>
+
+        </div>
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xxl-6 g-4 pb-5">
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/524679681_1437909294185968_6155100630457161146_n_6e5d8b2b-ee1c-4519-81d9-3a8b525bf4c6.jpg?v=1758009957&amp;width=384"
+
+          alt="Meta Quest 3 512GB">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3 512GB</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(26)</span>
+
+      </div>
+
+
+
+      <p>$599.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <span class="sale-badge">25% off</span>
+
+
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584270866_844352028527218_8072611599127744562_n_149e334c-632b-4470-9f07-334772c71862.jpg?v=1781802751&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 1), Matte Black / Gradient Graphite Polarized, Standard">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 1), Matte Black / Gradient Graphite Polarized, Standard</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(21)</span>
+
+      </div>
+
+
+
+      <p>$247.00 <del>$329.00</del></p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464410821_866312782294519_3258342156306196590_n.jpg?v=1781802748&amp;width=384"
+
+          alt="Meta Quest Elite Strap with Battery">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest Elite Strap with Battery</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$129.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <span class="sale-badge">25% off</span>
+
+
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584224708_1352793189813784_2629314416102013245_n_5ac67793-8c4e-47fd-8dac-739210501bed.jpg?v=1781802786&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 1), Matte Black / Clear to Graphite Green Transitions®, Standard">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 1), Matte Black / Clear to Graphite Green Transitions®, Standard</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(9)</span>
+
+      </div>
+
+
+
+      <p>$284.00 <del>$379.00</del></p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464442948_928411572486314_7443302105460331600_n_0362f1d2-c7db-4a71-b963-3f2ea3ace95c.jpg?v=1762278772&amp;width=384"
+
+          alt="Meta Quest Elite Strap">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest Elite Strap</h5>
+
+
+
+      <p>$69.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/649952577_787560184156147_2576709004675555400_n_9c94e4f7-1bbe-4a10-a850-b536b30a6702.jpg?v=1781802773&amp;width=384"
+
+          alt="Meta Quest 3S 128GB">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3S 128GB</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(33)</span>
+
+      </div>
+
+
+
+      <p>$349.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464419034_903159571364174_1646265931704920214_n_27db83e3-92b5-459c-a5e6-66bd4cb1ad36.jpg?v=1762278778&amp;width=384"
+
+          alt="Carrying Case for Meta Quest 3/3S">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Carrying Case for Meta Quest 3/3S</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$69.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464563912_1626932418230811_1395576590151502265_n_74c23689-825c-405e-ae7d-130825d33a60.jpg?v=1762278766&amp;width=384"
+
+          alt="Meta Quest Link Cable">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest Link Cable</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$79.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <span class="sale-badge">25% off</span>
+
+
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584492356_1559073225094656_522476693061121840_n_5f8080a9-38da-423c-8f98-ecb2bb205a65.jpg?v=1781802752&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 1), Matte Black / Clear to Graphite Green Transitions®, Large">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 1), Matte Black / Clear to Graphite Green Transitions®, Large</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(4)</span>
+
+      </div>
+
+
+
+      <p>$284.00 <del>$379.00</del></p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464388611_521154200711540_4018856471635335476_n_01d198a3-ac9d-4a67-ac92-a726b0c7d598.jpg?v=1762278768&amp;width=384"
+
+          alt="Meta Quest 3 Carrying Case">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3 Carrying Case</h5>
+
+
+
+      <p>$69.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464268761_1546304526255360_3560460630350496287_n_18c01dc0-3d6b-4fb5-8dc4-edcbe3f68dbe.jpg?v=1762278750&amp;width=384"
+
+          alt="Meta Quest 3 Silicone Facial Interface">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3 Silicone Facial Interface</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$39.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464327993_418327574654892_697798247641459015_n_021d0591-0be3-46d0-a531-dcc85a37c39e.jpg?v=1762278762&amp;width=384"
+
+          alt="Meta Quest 3 Charging Dock">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3 Charging Dock</h5>
+
+
+
+      <p>$129.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <span class="sale-badge">25% off</span>
+
+
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/585396178_839054655482883_1183534571160028709_n_2c69b5e4-4ce7-4daa-969a-abc3bc6f5d27.jpg?v=1781802798&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 1), Shiny Black / Green, Standard">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 1), Shiny Black / Green, Standard</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$224.00 <del>$299.00</del></p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464451088_1080056416993911_7150918070815309049_n_14a9034c-0052-4b77-b585-c6de88bedc54.jpg?v=1762278762&amp;width=384"
+
+          alt="Compact Carrying Case for Meta Quest 3/3S">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Compact Carrying Case for Meta Quest 3/3S</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$49.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464511164_491661600000328_1674897200743680717_n_a6811aaf-0b94-4f8c-bb5d-440c843347dc.jpg?v=1762278746&amp;width=384"
+
+          alt="Meta Quest 3 Open Facial Interface">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3 Open Facial Interface</h5>
+
+
+
+      <p>$39.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464592475_1993249781193203_9007552293099216750_n_af248660-800e-4e2a-944e-82fcc2903e89.jpg?v=1762278769&amp;width=384"
+
+          alt="Meta Quest 3S Breathable Facial Interface">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3S Breathable Facial Interface</h5>
+
+
+
+      <p>$39.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <span class="sale-badge">25% off</span>
+
+
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/700762070_839296039229107_2175537768288405220_n_4e340ca3-e10a-4ad2-8fc6-4f77bb4608cc.jpg?v=1781802786&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 1), Shiny Black / Clear to Amethyst Transitions®, Standard">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 1), Shiny Black / Clear to Amethyst Transitions®, Standard</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(2)</span>
+
+      </div>
+
+
+
+      <p>$284.00 <del>$379.00</del></p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <span class="sale-badge">25% off</span>
+
+
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584046944_2376209242830930_6349870074309018362_n_de495327-0c04-416b-91c2-6f4adc473aef.jpg?v=1781802800&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 1), Shiny Black / Cerulean Blue Transitions®, Standard">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 1), Shiny Black / Cerulean Blue Transitions®, Standard</h5>
+
+
+
+      <p>$284.00 <del>$379.00</del></p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584836027_815770491426457_6535060694325983435_n_3a0676b1-91ad-4955-a565-34a12f1fa6b4.jpg?v=1781802754&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Matte Black Clear Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Matte Black Clear Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(10)</span>
+
+      </div>
+
+
+
+      <p>$379.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584465912_2047633659144850_6359687955857282070_n_090b2ccc-51ad-4c3e-80f3-507741aed625.jpg?v=1781802758&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Matte Black Transitions® Grey Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Matte Black Transitions® Grey Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(9)</span>
+
+      </div>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584519451_720804083825161_2992569970815255982_n_ba094164-a570-49a6-986c-a8644ba0fbc3.jpg?v=1781802801&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Large Matte Black Polar Gradient Graphite Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Large Matte Black Polar Gradient Graphite Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(13)</span>
+
+      </div>
+
+
+
+      <p>$409.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464562531_1701388720707522_4412363642741220718_n_1548f321-4739-4c70-bd76-7b87a13295bc.jpg?v=1762278776&amp;width=384"
+
+          alt="Meta Quest 3 Facial Interface &amp; Head Strap (Elemental Blue)">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3 Facial Interface &amp; Head Strap (Elemental Blue)</h5>
+
+
+
+      <p>$49.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584317045_1750030119024867_6854409205734626491_n_3a48c235-6886-4f64-82dc-9625a8e221dc.jpg?v=1781802787&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 2) Shiny Black Clear Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 2) Shiny Black Clear Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$379.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583723109_1537079887435848_6748659437256847412_n_95f901d0-b090-4004-828f-06962f18f7fa.jpg?v=1781802774&amp;width=384"
+
+          alt="Oakley Meta Vanguard Black Prizm™ 24K">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta Vanguard Black Prizm™ 24K</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(4)</span>
+
+      </div>
+
+
+
+      <p>$499.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/464387849_1268218751019865_108436570118793454_n_077a6e61-8670-4dac-a03c-46404c3950f9.jpg?v=1762278775&amp;width=384"
+
+          alt="Meta Quest 3 Facial Interface &amp; Head Strap (Blood Orange)">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3 Facial Interface &amp; Head Strap (Blood Orange)</h5>
+
+
+
+      <p>$49.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583790362_1360100349089584_981972867181914869_n_aa3b9105-3690-4494-bf09-73f1ca1423a9.jpg?v=1781802776&amp;width=384"
+
+          alt="Ray-Ban Meta Headliner (Gen 2) Matte Black Clear Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Headliner (Gen 2) Matte Black Clear Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(2)</span>
+
+      </div>
+
+
+
+      <p>$379.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584274721_1369712394683510_3040044530946448158_n_cb595da6-5c69-4ba0-a371-2a93143aed4f.jpg?v=1781802780&amp;width=384"
+
+          alt="Oakley Meta Vanguard White Prizm™ Black">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta Vanguard White Prizm™ Black</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(6)</span>
+
+      </div>
+
+
+
+      <p>$499.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584098607_1483396939439163_8997420829114837025_n_79243b86-6a09-4142-af55-350831f34a33.jpg?v=1781802795&amp;width=384"
+
+          alt="Oakley Meta Vanguard Black Prizm™ Road">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta Vanguard Black Prizm™ Road</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$499.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584837176_1407080921094089_2222268997075833204_n_cc94d653-742a-40c0-8ad3-307228359414.jpg?v=1781802757&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Large Matte Black Transitions® Grey Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Large Matte Black Transitions® Grey Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(3)</span>
+
+      </div>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <span class="sale-badge">25% off</span>
+
+
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583330298_1913415182720335_5259411232680668029_n_acccba36-42ba-489e-9ce1-1e7167529ec8.jpg?v=1781802794&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 1), Shiny Chalky Gray / Clear to Sapphire Transitions®, Standard">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 1), Shiny Chalky Gray / Clear to Sapphire Transitions®, Standard</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(4)</span>
+
+      </div>
+
+
+
+      <p>$284.00 <del>$379.00</del></p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583296426_1557089452205682_2028156623169425667_n_22098d81-5d85-429b-a9dc-aafa5b6103d7.jpg?v=1781802797&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Matte Black Polar Gradient Graphite Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Matte Black Polar Gradient Graphite Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(3)</span>
+
+      </div>
+
+
+
+      <p>$409.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584288615_856976630609583_639382271971045139_n_5119551f-dc40-4772-9f69-ec25be13a9ee.jpg?v=1781802795&amp;width=384"
+
+          alt="Oakley Meta HSTN, Clear / Clear to Grey Transitions®">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta HSTN, Clear / Clear to Grey Transitions®</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(3)</span>
+
+      </div>
+
+
+
+      <p>$479.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/585421735_850468344186454_119398095407557988_n_01980017-6559-4ba2-9c16-57222776df09.jpg?v=1781802778&amp;width=384"
+
+          alt="Oakley Meta Vanguard White Prizm™ Sapphire">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta Vanguard White Prizm™ Sapphire</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(2)</span>
+
+      </div>
+
+
+
+      <p>$499.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584520422_813270444965422_2091893640971979919_n_23e65017-7fea-4e89-ba10-d9f102fdeeb9.jpg?v=1781802792&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Shiny Cosmic Blue Transitions® Sapphire Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Shiny Cosmic Blue Transitions® Sapphire Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(2)</span>
+
+      </div>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/585409502_1344278877191161_4718915655050964784_n_591720ea-d470-4132-af21-1f863570035c.jpg?v=1781802755&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 2) Shiny Black Transitions® Amethyst Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 2) Shiny Black Transitions® Amethyst Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(2)</span>
+
+      </div>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584980944_2297859244039839_3133668942048587272_n_36b4e71c-c1a7-4b32-b261-fa7725217c50.jpg?v=1781802801&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 2) Shiny Chalky Gray Transitions® Sapphire Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 2) Shiny Chalky Gray Transitions® Sapphire Lenses</h5>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/671209709_2460225271102368_6544308233978258741_n_d5ab52ba-e2fc-4986-bcfa-0b0b500359a7.jpg?v=1776168755&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Shiny Transparent Grey Transitions® Sapphire Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Shiny Transparent Grey Transitions® Sapphire Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(5)</span>
+
+      </div>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584459312_1177643037654887_8374869861153012122_n_aaeee725-9513-4245-868d-01a8728e6397.jpg?v=1781802778&amp;width=384"
+
+          alt="Oakley Meta HSTN, Black / Clear to Amethyst Transitions®">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta HSTN, Black / Clear to Amethyst Transitions®</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$479.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/585335791_1908184640040789_9152386608035113922_n_dd610128-115f-48d6-bba2-64e05a9aa02e.jpg?v=1781802772&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 2) Shiny Mystic Violet Transitions® Amethyst Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 2) Shiny Mystic Violet Transitions® Amethyst Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583826726_670633109460496_7225127145095987760_n_73d10efb-e8f1-4553-9269-f0ea1bf509fe.jpg?v=1781802783&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Shiny Black Transitions® Graphite Green Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Shiny Black Transitions® Graphite Green Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/571298507_1017419750505573_8175984324605148435_n.jpg?v=1761325741&amp;width=384"
+
+          alt="Meta Quest 3S 256GB">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Meta Quest 3S 256GB</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$449.99</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/585215060_4211780039097230_3536015389664283650_n_33e99de9-8658-4c79-a5af-00996fca5d25.jpg?v=1781802785&amp;width=384"
+
+          alt="Oakley Meta HSTN, Black / Prizm Black Polarized">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta HSTN, Black / Prizm Black Polarized</h5>
+
+
+
+      <p>$449.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584118281_3724738787661810_270687807437717862_n_c1ec6ab8-25a3-4ec8-8216-61e37b013677.jpg?v=1781802764&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Shiny Black Green Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Shiny Black Green Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$379.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583705175_1861213524478095_5474167339776849102_n_c7725124-f1f4-4bbd-aacb-f5c031b9ef66.jpg?v=1781802784&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Large Shiny Cosmic Blue Transitions® Sapphire Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Large Shiny Cosmic Blue Transitions® Sapphire Lenses</h5>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <span class="sale-badge">25% off</span>
+
+
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583998639_2053497788757293_8198280649653946248_n_34fdc8f2-b1f6-4930-8aa3-bc337ffcba6f.jpg?v=1781802781&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 1), Shiny Black / G15 Green, Standard">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 1), Shiny Black / G15 Green, Standard</h5>
+
+
+
+      <p>$224.00 <del>$299.00</del></p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/659588054_924052123855124_8771388060534209523_n.jpg?v=1781802797&amp;width=384"
+
+          alt="Oakley Meta HSTN Light Curry Transitions® Brown Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta HSTN Light Curry Transitions® Brown Lenses</h5>
+
+
+
+      <p>$479.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584792051_1561266131544606_8159967841494038727_n_b3135b3e-656a-4a71-820d-713d429df448.jpg?v=1781802802&amp;width=384"
+
+          alt="Ray-Ban Meta Headliner (Gen 2) Low Bridge Fit Shiny Black Green Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Headliner (Gen 2) Low Bridge Fit Shiny Black Green Lenses</h5>
+
+
+
+      <p>$379.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583885626_1890585528500530_2558809314516736858_n_0246177c-6df9-4001-8e51-639718dde24c.jpg?v=1781802759&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Large Shiny Black Transitions® Graphite Green Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Large Shiny Black Transitions® Graphite Green Lenses</h5>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584376840_871934655362020_3259519789923591270_n_7a0920fd-21a2-4919-97eb-0dae4ad1a741.jpg?v=1781802781&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Large Shiny Black Green Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Large Shiny Black Green Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$379.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/660436841_908766102004901_3515588879431275487_n_12907884-5e4a-46f7-a6fa-79ea35f65857.jpg?v=1774966322&amp;width=384"
+
+          alt="Oakley Meta Vanguard Black Prizm™ Black Lens">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta Vanguard Black Prizm™ Black Lens</h5>
+
+
+
+      <p>$499.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584648147_1823636911848021_26030112546660884_n_a25faf47-a754-45d2-9f91-a52b0bf69adc.jpg?v=1781802788&amp;width=384"
+
+          alt="Oakley Meta HSTN, Warm Grey / Prizm Ruby">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta HSTN, Warm Grey / Prizm Ruby</h5>
+
+
+
+      <p>$399.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/565343040_1994573857749484_1335099273447067957_n.jpg?v=1761091749&amp;width=384"
+
+          alt="Ray-Ban Meta Headliner (Gen 2) Low Bridge Fit Shiny Black Transitions® Sapphire Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Headliner (Gen 2) Low Bridge Fit Shiny Black Transitions® Sapphire Lenses</h5>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/671750502_2186711611864232_4154563536134775237_n_07a6b002-f2d5-47ad-aab1-ee93cbfcb9df.jpg?v=1776168757&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 2) Shiny Transparent Peach Transitions® Brown Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 2) Shiny Transparent Peach Transitions® Brown Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583332859_1208551067838229_1985235064842784873_n_483c836b-40e6-48a5-9193-aa66095a7f86.jpg?v=1781802777&amp;width=384"
+
+          alt="Oakley Meta HSTN, Brown Smoke / Prizm Deep Water Polarized">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta HSTN, Brown Smoke / Prizm Deep Water Polarized</h5>
+
+
+
+      <p>$449.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/585547515_1433042852158180_4972452260168575724_n_2bba12e4-ecef-4dd5-8828-0bfb2ac76a66.jpg?v=1781802789&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 2) Shiny Black Polar Gradient Graphite Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 2) Shiny Black Polar Gradient Graphite Lenses</h5>
+
+
+
+      <p>$409.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/669578170_1505199231169686_9067743293677888206_n_b8ee5411-e19f-4698-add1-11e2ea500d7f.jpg?v=1776168755&amp;width=384"
+
+          alt="Ray-Ban Meta Wayfarer (Gen 2) Large Shiny Transparent Grey Transitions® Sapphire Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Wayfarer (Gen 2) Large Shiny Transparent Grey Transitions® Sapphire Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584047299_2903939783148293_4540003413868581530_n_69c848fe-2bdb-42f9-81c5-882631ecfddb.jpg?v=1781802757&amp;width=384"
+
+          alt="Ray-Ban Meta Headliner (Gen 2) Shiny Asteroid Grey Transitions Emerald Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Headliner (Gen 2) Shiny Asteroid Grey Transitions Emerald Lenses</h5>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/657342984_1485102966458797_3337491714558139560_n_086f056f-a801-4aa7-aa5d-6ca22b773947.jpg?v=1774966323&amp;width=384"
+
+          alt="Oakley Meta Vanguard White Prizm™ Rose Gold Lens">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta Vanguard White Prizm™ Rose Gold Lens</h5>
+
+
+
+      <p>$499.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584118288_1173587277486714_741433090289618765_n_3e7e729d-e3fe-4c2e-912b-1b1105273ac9.jpg?v=1781802783&amp;width=384"
+
+          alt="Ray-Ban Meta Headliner (Gen 2) Shiny Black Transitions® Sapphire Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Headliner (Gen 2) Shiny Black Transitions® Sapphire Lenses</h5>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/582434242_2051698168921792_4321231584639008073_n_a1a75a3d-d094-4920-b6c7-3470ff20ed5e.jpg?v=1781802758&amp;width=384"
+
+          alt="Ray-Ban Meta Headliner (Gen 2) Matte Black Polar Gradient Graphite Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Headliner (Gen 2) Matte Black Polar Gradient Graphite Lenses</h5>
+
+
+
+      <div class="rating">
+
+        ★ ★ ★ ★ ★ <span>(1)</span>
+
+      </div>
+
+
+
+      <p>$409.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/669649838_4481001812186560_7300457625077332886_n_be31ce4c-4573-48f7-8cdb-027d1992824d.jpg?v=1776168756&amp;width=384"
+
+          alt="Ray-Ban Meta Headliner (Gen 2) Matte Transparent Peach Transitions® Grey Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Headliner (Gen 2) Matte Transparent Peach Transitions® Grey Lenses</h5>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/657649172_1472431207862171_570830417995338525_n_451d79ec-5ed0-4307-8adc-f6d7535b2213.jpg?v=1774966321&amp;width=384"
+
+          alt="Oakley Meta HSTN Black Prizm™  Dark Golf Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Oakley Meta HSTN Black Prizm™  Dark Golf Lenses</h5>
+
+
+
+      <p>$399.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/585396176_1427387165763220_2829062536995277620_n_63032dca-aeef-4450-b4a1-92d6ed9eb09a.jpg?v=1781802779&amp;width=384"
+
+          alt="Ray-Ban Meta Headliner (Gen 2) Shiny Black Transitions® Graphite Green Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Headliner (Gen 2) Shiny Black Transitions® Graphite Green Lenses</h5>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/583332921_1234122198532625_4041684735591520693_n_a7f4608d-b26a-4cf1-8ca3-1cc10f39e03f.jpg?v=1781802803&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 2) Shiny Black Transitions® Graphite Green Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 2) Shiny Black Transitions® Graphite Green Lenses</h5>
+
+
+
+      <p>$459.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/581736516_1355071699398252_2370552566848221577_n_006f803b-99fd-46ba-9b86-3ea18b7e8cf7.jpg?v=1781802763&amp;width=384"
+
+          alt="Ray-Ban Meta Headliner (Gen 2) Shiny Black Green Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Headliner (Gen 2) Shiny Black Green Lenses</h5>
+
+
+
+      <p>$379.00</p>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-3 col-sm-6 col-12">
+
+    <div class="product-card">
+
+      <div class="image-box">
+
+        <img
+
+          src="https://cdn.shopify.com/s/files/1/0680/8744/7599/files/584630278_2033130057499852_7325923919240792552_n_b8550140-2084-42d2-8f7c-4e81e4fa5c63.jpg?v=1781802807&amp;width=384"
+
+          alt="Ray-Ban Meta Skyler (Gen 2) Shiny Black Green Lenses">
+
+
+
+        <button class="heart-btn">
+
+          <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+      </div>
+
+
+
+      <h5>Ray-Ban Meta Skyler (Gen 2) Shiny Black Green Lenses</h5>
+
+
+
+      <p>$379.00</p>
+
+    </div>
+
+
+</div>
+
+
+          </div>
+
+          <footer class="shop-footer">
+  <div class="container-xxl">
+
+    <div class="row gy-5 align-items-start">
+
+      <!-- Left Footer Info -->
+      <div class="col-lg-5">
+        <div class="footer-brand mb-3">
+          <span class="shop-logo-text">Shop</span>
+        </div>
+
+        <p class="footer-about">
+          Shop is the next step on our mission to make commerce better for everyone.
+        </p>
+
+        <div class="d-flex align-items-center gap-3 flex-wrap mt-4">
+
+          <!-- QR Code -->
+          <div class="qr-box d-none d-lg-flex">
+            <img 
+              src="https://shop.app/qr/u/download?qr_bg_color=black&amp;qr_brand_color=white&amp;qr_color=white&amp;utm_source=shop-website&amp;qr_size=88&amp;qr_branding=shoplogo&amp;qr_deferred=true" 
+              alt="Download QR Code">
+          </div>
+
+          <!-- App Buttons -->
+          <div class="d-none d-md-flex flex-lg-column gap-2">
+            <a href="#" class="store-badge">
+              <img 
+                src="https://shopify-assets.shopifycdn.com/shopifycloud/shop-client/production/assets/apple-badge-light-QLcYWftF.svg" 
+                alt="Download on App Store">
+            </a>
+
+            <a href="#" class="store-badge">
+              <img 
+                src="https://shopify-assets.shopifycdn.com/shopifycloud/shop-client/production/assets/google-badge-light-BMF1GKqE.svg" 
+                alt="Download on Google Play">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="col-lg-7">
+        <div class="row gy-4">
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <h6 class="footer-heading">Start selling</h6>
+            <ul class="footer-list">
+              <li><a href="#">For brands</a></li>
+              <li><a href="#">For creators</a></li>
+              <li><a href="#">Build your store</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <h6 class="footer-heading">Information</h6>
+            <ul class="footer-list">
+              <li><a href="#">Shop Pay</a></li>
+              <li><a href="#">Help center</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <h6 class="footer-heading">Social</h6>
+            <ul class="footer-list">
+              <li><a href="#">X (Twitter)</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12">
+            <h6 class="footer-heading">Legal</h6>
+            <ul class="footer-list">
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Your Privacy Choices</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Footer -->
+    <hr class="footer-line">
+
+    <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3">
+
+      <div class="d-flex flex-wrap align-items-center gap-2">
+        <span class="powered-text">Powered by</span>
+        <strong class="shopify-text">Shopify</strong>
+        <span class="footer-separator">|</span>
+        <a href="#" class="bottom-link">Start selling for free</a>
+      </div>
+
+      <div class="d-flex flex-column flex-md-row gap-3">
+        <a href="#" class="bottom-link">Language</a>
+        <span class="copyright">© Shopify Inc. 2026</span>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+        </div>
+
+      
+
+        <!-- Floating Search -->
+        <div class="floating-search d-lg-flex d-none align-items-center justify-content-between">
+          <input type="text" placeholder="What are you shopping for today?">
+          <button><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+      </section>
+    </main>
+
+  </div>
+</div>
+
+</body>
+</html>
