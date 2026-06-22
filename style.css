@@ -13,7 +13,7 @@ body {
 /* Sticky Sidebar */
 .sidebar {
   width: 70px;
-  height: 100vh;
+  height: 100px;
   background: #ffffff;
   flex-shrink: 0;
   position: sticky;
@@ -56,7 +56,7 @@ body {
   background: #ffffff;
   padding: 59px 9px 9px 9px ;
   overflow: hidden;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .shop-panel {
@@ -418,5 +418,12 @@ body {
   background: #ffffff;
   color: #111111;
   border-color: #ffffff;
+}
+/* Main */
+.main-shop {
+  background: #ffffff;
+  padding: 59px 9px 9px 9px ;
+  overflow: hidden;
+  margin-top: 20px;
 }
 }
